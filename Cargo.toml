@@ -15,6 +15,9 @@ readme = "README.md"
 [dependencies]
 winnow = "1"
 
+[build-dependencies]
+rhusky = "0.0.6"
+
 [lints.rust]
 missing_docs = "deny"
 
