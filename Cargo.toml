@@ -1,0 +1,23 @@
+[package]
+name = "rdf-winnow"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+license = "MIT OR Apache-2.0"
+description = "Streaming RDF lexical primitives built on winnow"
+repository = "https://github.com/legra-ai/rdf-winnow"
+homepage = "https://github.com/legra-ai/rdf-winnow"
+documentation = "https://docs.rs/rdf-winnow"
+keywords = ["rdf", "parser", "winnow", "turtle", "n-triples"]
+categories = ["parser-implementations"]
+readme = "README.md"
+
+[dependencies]
+winnow = "1"
+
+[lints.rust]
+missing_docs = "deny"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
